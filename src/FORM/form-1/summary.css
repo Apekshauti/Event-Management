@@ -1,0 +1,52 @@
+/* summary.css */
+
+.summary-container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* Maintain minimum height if needed (adjust as required):
+    min-height: calc(100vh - 120px);
+    */
+  }
+  
+  .summary-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .summary-item {
+    margin-bottom: 10px;
+    /* Increased overall text size (adjust as needed):
+    font-size: 18px;
+    */
+  }
+  
+  .summary-item strong {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .summary-buttons {
+    /* Ensure bottom positioning: */
+    justify-content: flex-end; /* Aligns buttons to bottom */
+    align-items: flex-end;   /* Aligns buttons to bottom within container */
+  }
+  
+  .summary-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Increased button text size (adjust as needed):
+    font-size: 16px;
+    */
+  }
+  
+  .summary-buttons button:hover {
+    opacity: 0.8;
+  }

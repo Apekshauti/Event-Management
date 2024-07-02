@@ -1,0 +1,25 @@
+.curt {
+    margin: 20px 10px 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    width: 100%; /* Set the width to 100% */
+}
+
+/* Apply styles to all images uniformly */
+.curt img {
+    max-width: 100%; /* Ensure images don't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+.active {
+    background: none;
+    color: #000;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    max-width: 5px;
+    max-height: 5px;
+}

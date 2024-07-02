@@ -1,0 +1,61 @@
+/* Apply styles to the entire footer */
+.footer_full {
+  background-color: #333; /* Set the background color for the entire footer */
+  color: white; /* Set the text color */
+  padding: 20px; /* Add some padding for spacing */
+}
+.footer_item {
+  text-decoration: none;
+  color: white;
+}
+
+/* Styles for the tag container */
+.footer_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Align items vertically */
+}
+
+/* Styles for the 'Developed with ❤ by...' text */
+.footer_item {
+  font-size: 16px;
+  margin-top: 10px; /* Add space between text and social media icons */
+}
+
+/* Styles for the social media links container */
+.footer_icon {
+  margin-top: 20px; /* Increase the margin */
+  justify-content: center;
+  text-align: center;
+}
+
+/* Style for individual social media links */
+.linkedin_icon,.instagram_icon,.github_icon,.facebook_icon { 
+  margin: 0 10px; /* Evenly space the icons */
+  color: white; /* Set the color of social media icons */
+  font-size: 24px; /* Increase the icon size */
+}
+
+/* Hover effect for social media links */
+.linkedin_icon:hover ,.instagram_icon:hover, .github_icon:hover ,.facebook_icon:hover {
+  color: #00bcd4;
+  transition: 0.25s;
+}
+
+/* Styles for the copyright text */
+.copy {
+  font-size: 14px;
+  margin-top: 20px; /* Increase the margin */
+  text-align: center;
+  color: #999; /* Set a subdued color */
+}
+
+/* Add a border at the top of the footer */
+.footer_full::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #555;
+  margin-bottom: 20px; /* Space between border and content */
+}

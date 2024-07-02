@@ -1,0 +1,82 @@
+/* .card {
+  display: inline-block;
+  width: 200px ;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    border-radius: 2.5rem;
+    text-align: center;
+} */
+.full{
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  
+}
+.heading{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: underline ;
+
+}
+.circle-img{
+  height: 100px;
+  width: 100px;
+}
+
+.box {
+  background-color: grey;
+  display: inline-block;
+  width: 250px;
+  height: 350px; /* Set a fixed height for all boxes */
+  margin: 50px; /* Add margin to create space around the box */
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.box:hover > .box:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+
+.box .circle-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box .content {
+  position: absolute;
+  bottom: -6rem;
+  /* background: #fff; */
+  background: transparent;
+  border-top: .1rem solid rgba(0, 0, 0, .3);
+  text-align: center;
+  padding: .5rem 0;
+  width: 100%;
+}
+
+.box:hover .content {
+  bottom: 0;
+}
+
+.box .content h2 {
+  color: white;
+  font-size: 2.5rem;
+  padding: .5rem 0;
+}
+
+.box .content .btn {
+  margin-bottom: 1.3rem;
+  background: #E48C44;
+  padding: 20px;
+}
+
+/* Add hover effect for the button */
+.box .content .btn:hover {
+  background: #0CA2AB;
+  
+}

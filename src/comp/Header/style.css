@@ -1,0 +1,51 @@
+/* style.css */
+
+/* Update the background color and font color of the header */
+.head {
+  background: linear-gradient(45deg, #1995AD, #A1D6E2, #F1F1F2);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align items horizontally */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+/* Update the font styles of the header text */
+.head_text {
+  color: white;
+  font-weight: bold ;
+  font-family: Arial, sans-serif;
+  font-size: 30px; /* Adjust font size as needed */
+  margin: 0; /* Remove default margin */
+}
+
+/* Update the toggle switch styling */
+.switch {
+  display: flex; /* Make the toggle switch align with other elements */
+  align-items: center; /* Align items vertically */
+}
+
+/* Add padding and adjust margins for better spacing */
+.toggle-switch {
+  margin-right: 15px;
+}
+
+/* Adjust the size and position of the slider */
+.slider {
+  width: 3.5em; /* Match the width of the switch */
+  height: 2em; /* Match the height of the switch */
+  border-radius: 1em; /* Round the corners */
+  margin-right: 10px; /* Add spacing between elements */
+}
+
+/* Adjust the appearance of the slider before */
+.slider:before {
+  width: 1.4em; /* Match the size of the slider icon */
+  height: 1.4em; /* Match the size of the slider icon */
+  border-radius: 20px; /* Round the corners */
+}
+
+/* Adjust the appearance of the slider when checked */
+input:checked + .slider:before {
+  left: calc(100% - (1.4em + 0.3em)); /* Match the position of the slider icon */
+}

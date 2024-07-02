@@ -1,0 +1,53 @@
+.sui{
+  display: grid;
+  justify-content: center;
+}
+.ocr{    
+  border: 1px  solid #000000;
+  padding-right:  40px;
+  padding-left: 40px;
+}
+.deatail{
+ 
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+
+}
+.but{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  font-size: 16px;
+}
+.he{
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+
+/* Styles for the submit button container */
+.formsubmit {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Styles for the submit button */
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #E48C44;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Styles for the submit button on hover */
+button[type="submit"]:hover {
+  background-color: #1995AD;
+}

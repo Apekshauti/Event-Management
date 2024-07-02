@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Define color variables */
+:root {
+  --primary-color: #1995AD;
+  --secondary-color: #A1D6E2;
+  --background-color: #F1F1F2;
+}
+
+.link_text {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  width: 100%;
+}
+
+.sidebar {
+  background: var(--primary-color);
+  color: #fff;
+  width: 290px;
+  transition: all 0.5s;
+}
+
+.icon {
+  margin-left: 5px;
+  display: flex;
+}
+
+.menu-item {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  padding-bottom: 5px;
+  height: 100%;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.menu-item:hover {
+  background: var(--secondary-color);
+  color: #000;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.active,
+menu {
+  background-color: var(--background-color);
+  color: #000;
+}
+
+.icon,
+.link_text {
+  font-size: 15px;
+}
+
+.sidebar {
+  transition: width 0.3s ease;
+  width: 80px;
+}
+
+.sidebar.expanded {
+  min-width: 220px;
+}

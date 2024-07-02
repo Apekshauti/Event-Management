@@ -1,0 +1,190 @@
+
+.hover_head{
+    /* position: absolute;
+    top: 85px;
+    margin-left: -200px;
+    display: none; */
+    position: absolute;
+  top: 85px;
+  margin-left: -200px;
+  /* display: none; */
+  transition: opacity 0.3s ease-in-out; /* Add a transition for smooth appearance */
+opacity:0;
+}
+.button_head{
+    size: 100px;
+    background: none;
+    border: none;
+    margin-right: 5px;
+}
+.contant_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_head:hover .hover_head ,.button_head{
+  display: flex;
+  z-index: 5;
+  opacity: 1; /* Make the card visible */
+  transition-delay:0.3s;
+}
+
+/* ************************************************************************************************************* */
+.login-card {
+    width: 250px;
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 2px 2px 15px rgb(193, 193, 193);
+ 
+  }
+  
+  .instruction-text {
+    color: rgb(150, 150, 150);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: px;
+  }
+  
+  .login-card button {
+    cursor: pointer;
+    justify-content: center;
+  }
+  
+  .normal-signin {
+    padding: 10px;
+    font-size: 17px;
+    width: 70%;
+    margin-top: 25px;
+
+    border: 2px solid transparent;
+    border-radius: 5em;
+    background-color: #1b77da;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: 0.2s;
+  }
+  
+  .normal-signin:hover {
+    background-color: transparent;
+    color: #1b77da;
+    border: 2px solid #1b77da;
+  }
+  
+  .create-account {
+    padding: 10px;
+    font-size: 17px;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid transparent;
+    border-radius: 5em;
+    background-color: #e8e8e8;
+    color: #1b77da;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: 0.2s;
+  }
+  
+  .create-account:hover {
+    background-color: transparent;
+    color: #1b77da;
+    border: 2px solid #1b77da;
+  }
+  
+  .alternate-login {
+    margin-left: 42px;
+    margin-top: 5px;
+    background-color: #f2f2f2;
+    border-radius: 5em;
+  }
+  
+  .m-sign {
+    padding: 7px;
+    font-size: 14px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5em;
+    margin-top: 5px;
+    background-color: #7FBA00;
+    border: 2px solid transparent;
+    transition: 0.2s;
+  }
+  
+  .m-sign svg {
+    width: 27px;
+    height: 27px;
+    margin-top: -2px;
+    margin-left: -2px;
+    fill: #f2f2f2;
+  }
+  
+  .m-sign:hover {
+    background-color: transparent;
+    border: 2px solid #7FBA00;
+  }
+  
+  .m-sign:hover svg {
+    fill: #7FBA00;
+  }
+  
+  .g-sign {
+    padding: 7px;
+    font-size: 14px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5em;
+    margin-top: 5px;
+    margin-left: 15px;
+    background-color: #DB4437;
+    border: 2px solid transparent;
+    transition: 0.2s;
+  }
+  
+  .g-sign svg {
+    width: 23px;
+    height: 25px;
+    margin-top: -1.5px;
+    fill: #f2f2f2;
+  }
+  
+  .g-sign:hover {
+    background-color: transparent;
+    border: 2px solid #DB4437;
+  }
+  
+  .g-sign:hover svg {
+    fill: #DB4437;
+  }
+  
+  .a-sign {
+    padding: 7px;
+    font-size: 14px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5em;
+    margin-top: 5px;
+    margin-left: 15px;
+    background-color: #000000;
+    border: 2px solid transparent;
+    transition: 0.2s;
+  }
+  
+  .a-sign svg {
+    width: 25px;
+    height: 25px;
+    margin-top: -1px;
+    margin-left: -1px;
+    fill: #f2f2f2;
+  }
+  
+  .a-sign:hover {
+    background-color: transparent;
+    border: 2px solid #000000;
+  }
+  
+  .a-sign:hover svg {
+    fill: #000000;
+  }
